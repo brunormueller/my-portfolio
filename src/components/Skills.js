@@ -37,7 +37,7 @@ export const Skills = () => {
             <div className={isVisible ? "animate__animated animate__fadeIn animate__faster":""}>
             <div className="skill-bx">
               <h2>Skills</h2>
-              <p>Some projects available on Github</p>
+              <p>Some skills I use in my day 🔥</p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
@@ -45,19 +45,23 @@ export const Skills = () => {
               >
                 <div className="item">
                     <img src={meter1} alt="Image Skills"></img>
-                    <h5>Web Development</h5>
+                    <h5>PHP</h5>
                 </div>
                 <div className="item">
                     <img src={meter2} alt="Image Skills"></img>
-                    <h5>Brand Identity</h5>
+                    <h5>React.js</h5>
                 </div>
                 <div className="item">
                     <img src={meter3} alt="Image Skills"></img>
-                    <h5>Logo Design</h5>
+                    <h5>Node.js</h5>
                 </div>
                 <div className="item">
                     <img src={meter1} alt="Image Skills"></img>
                     <h5>Web Development</h5>
+                </div>
+                <div className="item">
+                    <img src={meter1} alt="Image Skills"></img>
+                    <h5>MySql</h5>
                 </div>
               </Carousel>
             </div>

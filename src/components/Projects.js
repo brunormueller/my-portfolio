@@ -2,39 +2,45 @@ import { Container, Tab, Row, Col, Nav } from "react-bootstrap";
 import { ProjectCards } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from "react-on-screen";
-import projImg1 from "../assets/img/project-img1.png";
+import projImg1 from "../assets/img/tesla_page.png";
+import projImg2 from "../assets/img/spotify_page.png";
+import projImg3 from "../assets/img/palpitebox.png";
+import projImg4 from "../assets/img/portfolio.png";
+import projImg5 from "../assets/img/login_fiadotec.png";
+import projImg6 from "../assets/img/coming_soon.jpg";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
+      title: "Tesla Page Clone",
       description: "Design & Development",
       imgUrl: projImg1,
+      link: "#home"
+    },
+    {
+      title: "Spotify Clone",
+      description: "Design & Development",
+      imgUrl: projImg2,
+    },
+    {
+      title: "PalpiteBox",
+      description: "Design & Development",
+      imgUrl: projImg3,
+    },
+    {
+      title: "My Portfolio",
+      description: "Design & Development",
+      imgUrl: projImg4,
+    },
+    {
+      title: "Login and Register Page",
+      description: "Design & Development",
+      imgUrl: projImg5,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg6,
     },
   ];
 
@@ -48,8 +54,7 @@ export const Projects = () => {
             <div className={isVisible ? "animate__animated animate__slideInUp":""}>
             <h2>Projects</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Some projects avaiable on GitHub.
             </p>
             </div>}
             </TrackVisibility>
