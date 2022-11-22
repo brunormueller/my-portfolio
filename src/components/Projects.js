@@ -13,7 +13,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Tesla Page Clone",
-      description: "Design & Development",
+      description: "Design & Development based on Tesla Page with all animations and response.",
       imgUrl: projImg1,
       link: "#home"
     },
