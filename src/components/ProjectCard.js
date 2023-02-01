@@ -7,16 +7,17 @@ export const ProjectCards = ({ title, description, imgUrl, link }) => {
       
       <div className="proj-imgbx"> 
         
-        <img src={imgUrl} />
+        <img src={imgUrl} className="h-40" />
         <div className="proj-txtx">
         
           <h4>{title}</h4>
           <span>{description}</span>
-          <a style={{textDecoration: 'none'}} href={link}><p style={{ color: '#000' }} >View on Git</p></a>
+          
         </div>
        
         
       </div>
+      <a  style={{textDecoration: 'none'}} href={link}><p className="text-zinc-200 hover:text-zinc-400">View on Git</p></a>
     </Col>
   );
 };

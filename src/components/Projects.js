@@ -8,6 +8,7 @@ import projImg3 from "../assets/img/palpitebox.png";
 import projImg4 from "../assets/img/portfolio.png";
 import projImg5 from "../assets/img/login_fiadotec.png";
 import projImg6 from "../assets/img/coming_soon.jpg";
+import projImg7 from "../assets/img/habits-project.png";
 
 export const Projects = () => {
   const projects = [
@@ -15,32 +16,37 @@ export const Projects = () => {
       title: "Tesla Page Clone",
       description: "Design & Development based on Tesla Page with all animations and response.",
       imgUrl: projImg1,
-      link: "#home"
+      link: "https://github.com/brunormueller/Home-Tesla"
     },
     {
       title: "Spotify Clone",
       description: "Design & Development",
       imgUrl: projImg2,
+      link: "https://github.com/brunormueller/Spotify-Clone"
     },
     {
       title: "PalpiteBox",
-      description: "Design & Development",
+      description: "Application developed to evaluate restaurants.Used React and Typescript",
       imgUrl: projImg3,
+      link: "https://github.com/brunormueller/PalpiteBox"
     },
     {
       title: "My Portfolio",
-      description: "Design & Development",
+      description: "Portfolio created with React, ReactHooks, Express, TailwindCSS and Typescript",
       imgUrl: projImg4,
+      link: "https://github.com/brunormueller/my-portfolio"
     },
     {
       title: "Login and Register Page",
       description: "Design & Development",
       imgUrl: projImg5,
+      link: "https://github.com/brunormueller/FiadoTec"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg6,
+      title: "Habits",
+      description: "An application made to create habits to be able to fulfill them daily. Done during a course. Developed for web and mobile",
+      imgUrl: projImg7,
+      link: "#"
     },
   ];
 

@@ -69,10 +69,12 @@ export const Banner = () => {
                     relationships, it’s great to be able to come together with
                     other professionals who are striving towards the same goal.{" "}
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <a href="https://www.linkedin.com/in/brunormueller/">
+                  <button>
                     Lets Connect
                     <ArrowRightCircle size={25} />
                   </button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>
